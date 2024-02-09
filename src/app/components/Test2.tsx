@@ -74,7 +74,7 @@ const Test2Recordable = ({
                             <pre className="p-6 border-2 rounded-md">
                                 List puntajes = [30, 50, 20, 70];<br />
                                 mayorPuntaje(puntajes);<br />
-                            // ={">"} 70
+                            {"// =>"} 70
                             </pre>
                         </div>
 
@@ -83,7 +83,7 @@ const Test2Recordable = ({
                             <pre className="p-6 border-2 rounded-md">
                                 List puntajes = [100, 0, 90, 30];<br />
                                 ultimoPuntajeRegistrado(puntajes);<br />
-                            // ={">"} 30
+                            {"// =>"} 30
                             </pre>
                         </div>
 

@@ -77,11 +77,11 @@ const Test1Recordable = ({
                             <pre className="p-6 border-2 rounded-md">
                                 int diasFaltantes = 3;<br />
                                 multiplicadorDiasFaltandes(diasFaltantes);<br />
-                            // ={">"} 1
+                            {"// =>"} 1
                                 <br />
                                 diasFaltantes = 7;<br />
                                 multiplicadorDiasFaltandes(diasFaltantes);<br />
-                            // ={">"} 0.85
+                            {"// =>"} 0.85
                             </pre>
                         </div>
 
@@ -95,11 +95,11 @@ const Test1Recordable = ({
                             <pre className="p-6 border-2 rounded-md">
                                 int productosVendidos = 21;<br />
                                 multiplicadorProductosVendidos(productosVendidos);<br />
-                            // ={">"} 1<br />
+                            {"// =>"} 1<br />
                                 <br />
                                 productosVendidos = 7;<br />
                                 calcularBonoVentas(productosVendidos);<br />
-                            // ={">"} 70
+                            {"// =>"} 70
                             </pre>
                         </div>
 
@@ -114,7 +114,7 @@ const Test1Recordable = ({
                                 int diasFaltantes = 2;<br />
                                 int productosVendidos = 3;<br />
                                 calcularSalarioFinal(diasFaltantes, productosVendidos);<br />
-                                // ={">"} 1030
+                            {"// =>"} 1030
                             </pre>
                         </div>
 
