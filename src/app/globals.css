@@ -18,12 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #ffffff;
+  
+  background-image: radial-gradient(#ddd 1px,transparent 0),radial-gradient(#ddd 1px,transparent 0);
+
+  background-size: 50px 50px;
+  background-position: 0 0,25px 25px;
 }
 
 @layer utilities {
