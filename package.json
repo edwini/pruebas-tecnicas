@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check --apply-unsafe ./src"
+    "lint": "next lint",
+    "biome": "biome check --apply-unsafe ./src"
   },
   "dependencies": {
     "next": "14.1.0",
